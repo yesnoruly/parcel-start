@@ -53,13 +53,14 @@ function browserSync(params) {
         server: {
             baseDir: "./" + project_folder + "/"
         },
-        port: 3000,
+        port: 5000,
         notify: false
     })
 }
 
 function css() {
     return src(path.src.css)
+        .pipe(browsersync.stream())
         .pipe(
             scss({
                 outputStyle: "expanded"
@@ -78,7 +79,6 @@ function css() {
             extname: ".min.css"
         }))
         .pipe(dest(path.build.css))
-        .pipe(browsersync.stream())
 }
 
 function html() {
@@ -132,26 +132,6 @@ function fonts() {
         .pipe(dest(path.build.fonts));
 }
 
-function fontsStyle(params) {
-	let file_content = fs.readFileSync(source_folder + '/scss/fonts.scss');
-	if (file_content == '') {
-		fs.writeFile(source_folder + '/scss/fonts.scss', '', cb);
-		return fs.readdir(path.build.fonts, function (err, items) {
-			if (items) {
-				let c_fontname;
-				for (var i = 0; i < items.length; i++) {
-					let fontname = items[i].split('.');
-					fontname = fontname[0];
-					if (c_fontname != fontname) {
-						fs.appendFile(source_folder + '/scss/fonts.scss', '@include font("' + fontname + '", "' + fontname + '", "400", "normal");\r\n', cb);
-					}
-					c_fontname = fontname;
-				}
-			}
-		})
-	}
-}
-
 function cb() { }
 
 function watchFiles() {
@@ -161,15 +141,14 @@ function watchFiles() {
         gulp.watch([path.watch.img], images);
 }
 
-let build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts), fontsStyle);
-let watch = gulp.parallel(build, watchFiles, browserSync);
+let build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts));
+let watch = gulp.parallel(build, browserSync, watchFiles);
 
-exports.html = html;
-exports.fontsStyle = fontsStyle;
 exports.fonts = fonts;
 exports.images = images;
 exports.js = js;
 exports.css = css;
+exports.html = html;
 exports.build = build;
 exports.watch = watch;
 exports.default = watch;
