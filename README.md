@@ -1,22 +1,22 @@
 # Gulp start template
 
-Мой личный стартовый шаблон, включает в себя наработки разных людей которые я собрал в один проект
+My personal starter template, includes the work of different people that I put together in one project
 
-> P.S. некоторые моменты будут объяснены в данном readme файле, остальная менее важная информация будет закоментированна в коде
+> P.S. some points will be explained in this readme file, other less important information will be commented out in the code
 
-Подробнее о сборщике галп на [оффициальном сайте](https://gulpjs.com/)
+More about the gulp build from the [official website](https://gulpjs.com/)
 
-## Установка
+## Download on Windows
+
+1. Downloading Node.js from the[official site](https://nodejs.org/en/download/)
+2. Open powershell on behalf of the administrator and enter `Set-ExecutionPolicy RemoteSigned` so that in the future there will be no errors associated with the lack of certain rights
+3. Run the command `npm install gulp-cli -g` in the console. This command installs Gulp globally, that is, you can run it from any folder on your computer.
+
+## Download on macOS
+
+1. Before installing, make sure that on device is installed [Homebrew](https://brew.sh/) and [Node.js](https://nodejs.org/en/download/). 
+2. After that, in the terminal, write this command `sudo npm install gulp-cli -g`
+
+## Get started
 
 ``git clone https://github.com/Karvacky-Roma/Gulp-start-template.git``
-
-## Установка на Windows
-
-1. Скачиваем Node.js с [оффициального сайта](https://nodejs.org/en/download/)
-2. Открываем powershell от имени админстратора и вводим `Set-ExecutionPolicy RemoteSigned` чтобы в дальнейшем не возникало никаких ошибок связанных с отсутствием определенных прав
-3. Переходим на сайт gulpjs, запускаем в консоли команду `npm install gulp-cli -g`. Данная команда устанавливает Gulp глобально, то есть запускать его можно из любой папки на компьютере.
-
-## Установка на macOS
-
-1. Перед установкой убедимся что на устройстве установлен [Homebrew](https://brew.sh/) и [Node.js](https://nodejs.org/en/download/). 
-2. После этого в терминал пишем эту команду `sudo npm install gulp-cli -g`
