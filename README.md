@@ -11,6 +11,8 @@ My personal starter template, includes the work of different people that I put t
   - [Get started](#get-started)
   - [File And Folder System](#file-and-folder-system)
   - [Advantages](#advantages)
+  - [Versioning](#versioning)
+  - [Authors](#authors)
 
 
 ## Installation On Windows
