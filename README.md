@@ -52,14 +52,14 @@ To start build write the command ``gulp``
     |   index.html
     |
     └── %source_folder%
-	├── fonts
-	├── img
-	├── css
-	|    ├── style.css
-	|    └── style.min.css
-	├── js
-	|    ├── main.js
-	|    └── main.min.js
-	└── index.html
+		├── fonts
+		├── img
+		├── css
+		|    ├── style.css
+		|    └── style.min.css
+		├── js
+		|    ├── main.js
+		|    └── main.min.js
+		└── index.html
 
 At the root there are two folders: the source folder and the folder that is obtained as a result of the build. In the source folder, we also observe the folder of fonts, images, scripts and scss files. The source folder contains the compiled style and script files, and a compressed duplicate of the file is also created.
