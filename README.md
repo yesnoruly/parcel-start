@@ -1,6 +1,8 @@
 # Gulp start template
 
-TODO: write about start template advantages
+My personal starter template, includes the work of different people that I put together in one project
+
+> P.S. some points will be explained in this readme file, other less important information will be commented out in the code
 
 ## Summary
 
@@ -8,6 +10,7 @@ TODO: write about start template advantages
   - [Installlation on macOS](#installation-on-macos)
   - [Get started](#get-started)
   - [File And Folder System](#file-and-folder-system)
+  - [Advantages](#advantages)
 
 
 ## Installation On Windows
@@ -63,3 +66,21 @@ To start build write the command ``gulp``
 		└── index.html
 
 At the root there are two folders: the source folder and the folder that is obtained as a result of the build. In the source folder, we also observe the folder of fonts, images, scripts and scss files. The source folder contains the compiled style and script files, and a compressed duplicate of the file is also created.
+
+## Advantages
+
+ - Refresh browser on save.
+ - Ability to collect several html files into one.
+ - Optimizes images and converts them to modern format - webp.
+ - Ability to collect several javascript files into one
+ - Minification and concatenation of CSS / JS files;
+ 
+ ## Versioning
+ 
+v1.0.0 - Stable
+
+## Authors 
+
+ - **Karvackyy Roma**
+ 
+Report bugs [here](https://github.com/Karvacky-Roma/Gulp-build/issues)
