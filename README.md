@@ -1,10 +1,6 @@
 # Gulp start template
 
-My personal starter template, includes the work of different people that I put together in one project
-
-> P.S. some points will be explained in this readme file, other less important information will be commented out in the code
-
-More about the gulp build from the [official website](https://gulpjs.com/)
+TODO: write about start template advantages
 
 ## Download on Windows
 
