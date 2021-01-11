@@ -40,7 +40,6 @@ To start build write the command ``gulp``
     |   |    └── slick.min.js
     |   ├── scss
     |   |    ├── _fonts.scss
-    |	|	 |
     |   |    ├── _footer.scss
     |   |    ├── _header.scss
     |   |    ├── _mixins.scss
