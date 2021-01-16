@@ -76,10 +76,6 @@ At the root there are two folders: the source folder and the folder that is obta
  - Optimizes images and converts them to modern format - webp.
  - Ability to collect several javascript files into one
  - Minification and concatenation of CSS / JS files;
- 
- ## Versioning
- 
-v1.0.0 - Stable
 
 ## Authors 
 
