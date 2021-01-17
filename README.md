@@ -71,7 +71,7 @@ At the root there are two folders: the source folder and the folder that is obta
 
 ## Advantages
 
- - Refresh browser on save.
+ - Refreshing browser on save.
  - Ability to collect several html files into one.
  - Optimizes images and converts them to modern format - webp.
  - Ability to collect several javascript files into one
