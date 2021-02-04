@@ -79,7 +79,7 @@ At the root there are two folders: the source folder and the folder that is obta
 
 ## Authors 
 
- - **Karvackyy Roma**
+ - [**Karvackyy Roma**](https://www.instagram.com/romakarvac.kyy/)
  - [**FLS**](https://instagram.com/freelancer.lifestyle?igshid=5tsxy82jxi85)
  
 Report bugs [here](https://github.com/Karvacky-Roma/Gulp-build/issues)
