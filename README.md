@@ -76,7 +76,7 @@ At the root there are two folders: the source folder and the folder that is obta
  - Ability to collect several javascript files into one
  - Minification and concatenation of CSS / JS files;
 
-## Authors 
+## Contributions 
 
  - [**Karvackyy Roma**](https://github.com/Karvacky-Roma)
  - [**FLS**](https://github.com/FreelancerLifeStyle)
