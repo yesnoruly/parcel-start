@@ -29,7 +29,7 @@ Starter template, includes the work of different people that I put together in o
 
 ``git clone https://github.com/Karvacky-Roma/Gulp-start-template.git``
 
-After cloning, open a terminal at the folder address, to install all the necessary modules, write the command ``npm i``.
+After cloning, open a terminal at the folder address, to install all the necessary modules, write the command ``npm i``(it can take some time).
 
 To start build write the command ``gulp``
 
