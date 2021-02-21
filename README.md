@@ -81,4 +81,4 @@ At the root there are two folders: the source folder and the folder that is obta
  - [**Karvackyy Roma**](https://github.com/Karvacky-Roma)
  - [**FLS**](https://github.com/FreelancerLifeStyle)
  
-Report bugs [here](https://github.com/Karvacky-Roma/Gulp-build/issues)
+Report bugs/errors [here](https://github.com/Karvacky-Roma/Gulp-build/issues)
