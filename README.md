@@ -16,7 +16,7 @@ Starter template, includes the work of different people that I put together in o
 
 ## Installation On Windows
 
-1. Downloading Node.js from the [official site](https://nodejs.org/en/download/)
+1. Downloading [Node.js](https://nodejs.org/en/download/)
 2. Open powershell on behalf of the administrator and enter `Set-ExecutionPolicy RemoteSigned` so that in the future there will be no errors associated with the lack of certain rights
 3. Run the command `npm install gulp-cli -g` in the console. This command installs Gulp globally, that is, you can run it from any folder on your computer.
 
