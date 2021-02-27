@@ -5,14 +5,25 @@ Starter template, includes the work of different people that I put together in o
 > P.S. some points will be explained in this readme file, other less important information will be commented out in the code
 
 ## Summary
-
+  - [Advantages](#advantages)
   - [Installlation on Windows](#installation-on-windows)
   - [Installlation on macOS](#installation-on-macos)
   - [Get started](#get-started)
   - [File And Folder System](#file-and-folder-system)
-  - [Advantages](#advantages)
   - [Authors](#authors)
 
+## Advantages
+
+ - Refreshing browser on save;
+ - Ability to collect several html files into one;
+ - Optimizes images and converts them to modern format - webp;
+ - Ability to collect several javascript files into one;
+ - Compiles SCSS files to CSS;
+ - SCSS file with all slick slider classes;
+ - SCSS file that resets browser styles;
+ - Minification and concatenation of CSS / JS files;
+ - Automatic generation of vendor prefixes (-webkit, -moz, -o, -ms) so that older versions of browsers support all css properties;
+ - Using the BEM methodology;
 
 ## Installation On Windows
 
@@ -67,14 +78,6 @@ To start build write the command ``gulp``
 		└── index.html
 
 At the root there are two folders: the source folder and the folder that is obtained as a result of the build. In the source folder, we also observe the folder of fonts, images, scripts and scss files. The source folder contains the compiled style and script files, and a compressed duplicate of the file is also created.
-
-## Advantages
-
- - Refreshing browser on save.
- - Ability to collect several html files into one.
- - Optimizes images and converts them to modern format - webp.
- - Ability to collect several javascript files into one
- - Minification and concatenation of CSS / JS files;
 
 ## Contributions 
 
