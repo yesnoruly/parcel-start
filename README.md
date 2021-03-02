@@ -8,7 +8,7 @@ Starter template, includes the work of different people that I put together in o
   - [Advantages](#advantages)
   - [Installlation on Windows](#installation-on-windows)
   - [Installlation on macOS](#installation-on-macos)
-  - [Get started](#get-started)
+  - [Usage](#usage)
   - [File And Folder System](#file-and-folder-system)
   - [Authors](#authors)
 
@@ -23,7 +23,7 @@ Starter template, includes the work of different people that I put together in o
 1. Before installing, make sure that on device is installed [Homebrew](https://brew.sh/) and [Node.js](https://nodejs.org/en/download/).
 2. After that, in the terminal, write this command `sudo npm install gulp-cli -g`
 
-## Get Started
+## Usage
 
 ``git clone https://github.com/Karvacky-Roma/Gulp-start-template.git``
 
