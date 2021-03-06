@@ -27,9 +27,9 @@ Starter template, includes the work of different people that I put together in o
 
 ``git clone https://github.com/Karvacky-Roma/Gulp-start-template.git``
 
-After cloning, open a terminal at the folder address, to install all the necessary modules, write the command ``npm i``(it can take some time).
+- After cloning, open a terminal at the folder address, to install all the necessary modules, write the command ``npm i``(it can take some time).
 
-To start build write the command ``gulp``
+- To start build write the command ``gulp``
 
 ## File And Folder System
 
@@ -53,18 +53,22 @@ To start build write the command ``gulp``
     |   _header.html
     |   index.html
     |
-    └── %source_folder%
-		├── fonts
-		├── img
-		├── css
-		|    ├── style.css
-		|    └── style.min.css
-		├── js
-		|    ├── main.js
-		|    └── main.min.js
-		└── index.html
+    └── %initial_folder%
+    ├── fonts
+    ├── img
+    ├── css
+    |    ├── style.css
+    |    └── style.min.css
+    ├── js
+    |    ├── main.js
+    |    └── main.min.js
+    └── index.html
 
-At the root there are two folders: the source folder and the folder that is obtained as a result of the build. In the source folder, we also observe the folder of fonts, images, scripts and scss files. The source folder contains the compiled style and script files, and a compressed duplicate of the file is also created.
+At the root there are two folders: 
+- src folder
+- initial folder (that is obtained as a result of the build) 
+In the src folder we also observe the folder of fonts, images, scripts and scss files. 
+The initial folder contains the compiled style and script files, and a compressed duplicate of the file is also created.
 
 
 ## Advantages
