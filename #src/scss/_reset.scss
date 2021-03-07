@@ -16,13 +16,14 @@ input:focus,
 select:focus,
 textarea:focus {
   box-shadow: none;
-  outline: #000 dotted 2px;
+  outline: $focusInputColor dotted 2px;
   outline-offset: .05em;
 }
 
 nav, footer, header, aside{display: block;}
 
 html, body{
+	font-family: $fontName;
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
