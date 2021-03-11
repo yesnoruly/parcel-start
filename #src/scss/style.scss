@@ -12,7 +12,9 @@ $focusInputColor: #000;
 @import '_fonts.scss';
 
 body{
-	
+	&.lock{
+        overflow-y: hidden;
+    }
 }
 
 // Header <================================================================================>
