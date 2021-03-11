@@ -39,17 +39,17 @@ Starter template, includes the work of different people that I put together in o
     |   ├── img
     |   ├── js
     |   |    ├── main.js
-    |   |    └── slick.min.js
+    |   |    └── burger.js
     |   ├── scss
     |   |    ├── _fonts.scss
     |   |    ├── _footer.scss
     |   |    ├── _header.scss
-    |   |    ├── _mixins.scss
-    |   |    ├── _nullstyle.scss
-    |   |    ├── _slick.scss
-    |   |    ├── _ui.scss
+    |   |    ├── _reset.scss
+    |   |    ├── _config.scss
     |   |    └── style.scss
     |   _footer.html
+    |   _head.html
+    |   _scripts.html
     |   _header.html
     |   index.html
     |
