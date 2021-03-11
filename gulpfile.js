@@ -68,17 +68,19 @@ function css() {
         )
         .pipe(gcmq())
         .pipe(
-            autoprefixer({
-                overrideBrowsersList: ["last 5 versions"],
-                cascade: true
-            })
-        )
+			autoprefixer({
+				overrideBrowserslist: ["last 5 versions"],
+				cascade: true
+			})
+		)
         .pipe(dest(path.build.css))
         .pipe(cleanCss())
+
         .pipe(rename({
             extname: ".min.css"
         }))
         .pipe(dest(path.build.css))
+        .pipe(browsersync.stream())
 }
 
 function html() {
