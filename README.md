@@ -24,12 +24,10 @@ Starter template, includes the work of different people that I put together in o
 2. After that, in the terminal, write this command `sudo npm install gulp-cli -g`
 
 ## Usage
-
-``git clone https://github.com/Karvacky-Roma/Gulp-start-template.git``
-
-- After cloning, open a terminal at the folder address, to install all the necessary modules, write the command ``npm i``(it can take some time).
-
-- To start build write the command ``gulp``
+    git clone https://github.com/Karvacky-Roma/Gulp-build.git
+    cd my-folder-name
+    npm i
+    gulp
 
 ## File And Folder System
 
