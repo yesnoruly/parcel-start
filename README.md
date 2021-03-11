@@ -25,8 +25,11 @@ Starter template, includes the work of different people that I put together in o
 
 ## Usage
     git clone https://github.com/Karvacky-Roma/Gulp-build.git
-    cd my-folder-name
+
+    cd my-project
+
     npm i
+
     gulp
 
 ## File And Folder System
