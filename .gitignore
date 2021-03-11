@@ -4,6 +4,6 @@
 # Ada Library Information
 *.ali
 
-# nodejs files
+# node-js files
 node_modules/
 package-lock.json
