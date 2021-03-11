@@ -80,7 +80,6 @@ function css() {
             extname: ".min.css"
         }))
         .pipe(dest(path.build.css))
-        .pipe(browsersync.stream())
 }
 
 function html() {
