@@ -1,16 +1,12 @@
 # Gulp start template
 
-Starter template, includes the work of different people that I put together in one project
-
-> P.S. some points will be explained in this readme file, other less important information will be commented out in the code
-
 ## Summary
-  - [Advantages](#advantages)
   - [Installlation on Windows](#installation-on-windows)
   - [Installlation on macOS](#installation-on-macos)
   - [Usage](#usage)
   - [File And Folder System](#file-and-folder-system)
   - [Authors](#authors)
+  - [Advantages](#advantages)
 
 ## Installation On Windows
 
