@@ -51,15 +51,15 @@
     |   index.html
     |
     └── %initial_folder%
-    ├── fonts
-    ├── img
-    ├── css
-    |    ├── style.css
-    |    └── style.min.css
-    ├── js
-    |    ├── main.js
-    |    └── main.min.js
-    └── index.html
+        ├── fonts
+        ├── img
+        ├── css
+        |    ├── style.css
+        |    └── style.min.css
+        ├── js
+        |    ├── main.js
+        |    └── main.min.js
+        └── index.html
 
 At the root there are two folders: 
 - src folder
