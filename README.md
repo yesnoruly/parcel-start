@@ -1,13 +1,5 @@
 # Gulp start template
 
-## Summary
-  - [Installlation on Windows](#installation-on-windows)
-  - [Installlation on macOS](#installation-on-macos)
-  - [Usage](#usage)
-  - [File And Folder System](#file-and-folder-system)
-  - [Authors](#authors)
-  - [Advantages](#advantages)
-
 ## Installation On Windows
 
 1. Downloading [Node.js](https://nodejs.org/en/download/)
