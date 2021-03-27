@@ -4,7 +4,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        min-height: 150px;
+        min-height: 0; //
     }
     &__logo{
         width: 50px;

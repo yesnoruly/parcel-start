@@ -1,1 +1,1 @@
-Put local fonts in this folder
+put here your fonts files
