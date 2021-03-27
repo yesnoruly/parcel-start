@@ -42,7 +42,7 @@
     |   _header.html
     |   index.html
     |
-    └── %initial_folder%
+    └── dist
         ├── fonts
         ├── img
         ├── css
@@ -55,7 +55,7 @@
 
 At the root there are two folders: 
 - src folder
-- initial folder (that is obtained as a result of the build) 
+- dist folder (that is obtained as a result of the build) 
 In the src folder we also observe the folder of fonts, images, scripts and scss files. 
 The initial folder contains the compiled style and script files, and a compressed duplicate of the file is also created.
 Also this folder will be named the same as the folder of its parent
