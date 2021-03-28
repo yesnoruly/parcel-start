@@ -14,7 +14,7 @@
 ## Usage
     git clone https://github.com/Karvacky-Roma/Gulp-build.git
 
-    cd my-project
+    cd %project_folder%
 
     npm i
 
@@ -23,7 +23,7 @@
 ## File And Folder System
 
     %project_folder%
-    ├── #src
+    ├── src
     |   ├── fonts
     |   ├── img
     |   ├── js
