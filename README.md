@@ -76,6 +76,5 @@ Also this folder will be named the same as the folder of its parent
 ## Contributions 
 
  - [**Karvackyy Roma**](https://github.com/Karvacky-Roma)
- - [**FLS**](https://github.com/FreelancerLifeStyle)
  
 Report bugs/errors [here](https://github.com/Karvacky-Roma/Gulp-build/issues)
