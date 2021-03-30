@@ -68,7 +68,6 @@ Also this folder will be named the same as the folder of its parent
  - Optimizes images and converts them to modern format - webp;
  - Ability to collect several javascript files into one;
  - Compiles SCSS files to CSS;
- - SCSS file with all slick slider classes;
  - SCSS file that resets browser styles;
  - Minification and concatenation of CSS / JS files;
  - Automatic generation of vendor prefixes (-webkit, -moz, -o, -ms) so that older versions of browsers support all css properties;
