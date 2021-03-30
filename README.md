@@ -8,7 +8,7 @@
 
 ## Installation On MacOS
 
-1. Before installing, make sure that on device is installed [Homebrew](https://brew.sh/) and [Node.js](https://nodejs.org/en/download/).
+1. Downloading [Homebrew](https://brew.sh/) and [Node.js](https://nodejs.org/en/download/).
 2. After that, in the terminal, write this command `sudo npm install gulp-cli -g`
 
 ## Usage
