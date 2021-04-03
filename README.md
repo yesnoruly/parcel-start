@@ -14,8 +14,6 @@
 ## Usage
     git clone https://github.com/Karvacky-Roma/Gulp-build.git ./
 
-    cd %project_folder%
-
     npm i
 
     gulp
