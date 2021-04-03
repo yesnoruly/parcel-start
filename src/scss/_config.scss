@@ -1,19 +1,34 @@
+.header {
+	grid-area: hd;
+}
+.footer {
+	grid-area: ft;
+}
+.content {
+	grid-area: main;
+}
+.sidebar {
+	grid-area: sd;
+}
+
 .wrapper{
 	width: 100%;
 	min-height: 100%;
 	overflow: hidden;
-	display: flex;
-	flex-direction: column;
+	//display: grid;
+	//grid-template-columns: repeat(9, 1fr);
+	//grid-auto-rows: 100px 1fr 100px;
+	//grid-template-areas:
+    //  "hd hd hd hd   hd   hd   hd   hd   hd"
+    //  "sd sd main main main main main main main"
+    //  "ft ft ft ft   ft   ft   ft   ft   ft";
+
 }
 
 .container{
 	max-width: $maxWidth+px;
 	margin: 0 auto;
-	padding: 0px 10px;
-}
-
-.content{
-	flex: 1 1 auto;
+	padding: 0 10px;
 }
 
 .btn{
