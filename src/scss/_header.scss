@@ -21,8 +21,7 @@ $burgerColor: #000;
 $backgroundListColor: grey;
 
 
-
-@media (max-width: 798px){
+@media (max-width: $md2){
 	.header__burger{
 		display: block;
 		position: relative;
