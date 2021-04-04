@@ -70,7 +70,8 @@ Also this folder will be named the same as the folder of its parent
  - Minification and concatenation of CSS / JS files;
  - Automatic generation of vendor prefixes (-webkit, -moz, -o, -ms) so that older versions of browsers support all css properties;
  - Using the BEM methodology;
- - Sticky footer and aside ![screenshot](https://i.ibb.co/CzHwRM6/image-2021-04-04-01-13-55-2.png)
+ - Sticky footer and aside                                      
+  ![screenshot](https://i.ibb.co/CzHwRM6/image-2021-04-04-01-13-55-2.png)
 ## Contributions 
 
  - [**Karvackyy Roma**](https://github.com/Karvacky-Roma)
