@@ -22,8 +22,8 @@
 
     %project_folder%
     ├── src
-    |   ├── fonts
-    |   ├── img
+    |   ├── fonts/
+    |   ├── img/
     |   ├── js
     |   |    ├── main.js
     |   |    └── burger.js
@@ -41,8 +41,8 @@
     |   index.html
     |
     └── dist
-        ├── fonts
-        ├── img
+        ├── fonts/
+        ├── img/
         ├── css
         |    ├── style.css
         |    └── style.min.css
