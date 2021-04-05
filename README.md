@@ -20,8 +20,8 @@
 
 ## File And Folder System
 
-    %project_folder%
-    ├── src
+    %project_folder%/
+    ├── src/
     |   ├── fonts/
     |   ├── img/
     |   ├── js
@@ -40,7 +40,7 @@
     |   _header.html
     |   index.html
     |
-    └── dist
+    └── dist/
         ├── fonts/
         ├── img/
         ├── css
