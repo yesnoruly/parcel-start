@@ -73,8 +73,10 @@ Also this folder will be named the same as the folder of its parent
  - Sticky footer and aside using grids (***src/scss/config.scss***)                                    
   
   ![screenshot](https://i.ibb.co/CzHwRM6/image-2021-04-04-01-13-55-2.png)
-## Contributions 
+## Authors 
 
  - [**Karvackyy Roma**](https://github.com/Karvacky-Roma)
+
+## Contributions
  
-Report bugs/errors [here](https://github.com/Karvacky-Roma/Gulp-build/issues)
+If you find a bug/error send pull requests or report [here](https://github.com/Karvacky-Roma/Gulp-build/issues)
