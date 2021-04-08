@@ -80,3 +80,7 @@ Also this folder will be named the same as the folder of its parent
 ## Contributions
  
 If you find a bug/error send pull requests or report [here](https://github.com/Karvacky-Roma/Gulp-build/issues)
+
+## License 
+
+Licensed under [ISC License](https://github.com/Karvacky-Roma/gulp-build/blob/master/LICENSE)
