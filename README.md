@@ -16,8 +16,9 @@
 
     npm i
 
-    gulp
+    gulp (and open localhost:5000/)
 
+And open **localhost:5000**
 ## File And Folder System
 
     %project_folder%/
