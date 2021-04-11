@@ -1,10 +1,11 @@
 /*HEADER*/
 .header{
+	padding: 0 20px;
     &__row{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        min-height: 0; //
+        min-height: 0; // uncomment
     }
     &__logo{
         width: 50px;
@@ -21,7 +22,7 @@ $burgerColor: #000;
 $backgroundListColor: grey;
 
 
-@media (max-width: $md2){
+@media (max-width: $md2){ // Burger styles onlick
 	.header__burger{
 		display: block;
 		position: relative;
