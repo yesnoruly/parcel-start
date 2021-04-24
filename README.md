@@ -1,19 +1,18 @@
 # Gulp start template
 
-## Installation On Windows
+## Install On Windows
 
 1. Downloading [Node.js](https://nodejs.org/en/download/)
 2. Open powershell on behalf of the administrator and enter `Set-ExecutionPolicy RemoteSigned` so that in the future there will be no errors associated with the lack of certain rights
 3. Run the command `npm install gulp-cli -g` in the console. This command installs Gulp globally, that is, you can run it from any folder on your computer.
 
-## Installation On MacOS
+## Install On MacOS
 
 1. Downloading [Node.js](https://nodejs.org/en/download/).
 2. After that, in the terminal, write this command `sudo npm install gulp-cli -g`
 
 ## Usage
-    git clone https://github.com/Karvacky-Roma/gulp-build.git ./
-
+   
     npm i
 
     gulp (and open localhost:5000/)
