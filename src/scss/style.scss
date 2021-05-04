@@ -36,7 +36,7 @@ body {
     height: 40vmin;
     pointer-events: none;
     @media (prefers-reduced-motion: no-preference) {
-      animation: App-logo-spin infinite 20s linear;
+      animation: app-logo-spin infinite 20s linear;
     }
     margin-bottom: 30px;
   }
@@ -66,12 +66,12 @@ body {
 code {
   font-family: $fontName;
   color: #dc4444;
-  padding: 10px;
+  padding: 7px;
   background-color: rgba(41, 41, 41, 0.9);
-  border-radius: 8px;
+  border-radius: 7px;
 }
 
-@keyframes App-logo-spin {
+@keyframes app-logo-spin {
   from {
     transform: rotate(0deg);
   }
