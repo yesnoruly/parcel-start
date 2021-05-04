@@ -2,27 +2,23 @@
 .header{
 	padding: 0 20px;
     &__row{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 0; // uncomment
+        display: grid;
+		align-items: center;
+		grid-auto-flow: column;
     }
-    &__logo{
-        width: 50px;
-        height: 50px;
-        background-color: #000;
-        border-radius: 50%;
-    }
+	&__menu{
+		margin-left: auto;
+	}
 	&__burger{
         display: none;
     }
 }
 
-$burgerColor: #000;
-$backgroundListColor: grey;
+$burgerColor: "...#yourColor...";
+$backgroundListColor: "...#yourColor...";
 
-
-@media (max-width: $md2){ // Burger styles onlick
+// Media query > 768px
+@media (max-width: $md2){
 	.header__burger{
 		display: block;
 		position: relative;
