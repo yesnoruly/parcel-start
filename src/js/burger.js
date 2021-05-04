@@ -1,7 +1,6 @@
 
 const headerMenu    = document.querySelector(".header__menu");
 const headerBurger  = document.querySelector(".header__burger");
-// const headerElement = document.querySelector(".header__link");
 const body          = document.querySelector("body");
 
 
