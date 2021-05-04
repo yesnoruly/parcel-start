@@ -135,8 +135,6 @@ function fonts() {
         .pipe(dest(path.build.fonts));
 }
 
-function cb() { }
-
 
 function watchFiles() {
     gulp.watch([path.watch.html], html),
