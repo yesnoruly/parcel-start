@@ -44,8 +44,7 @@ let { src, dest } = require('gulp'),
     webpHTML = require('gulp-webp-html'),
     ttf2woff = require('gulp-ttf2woff'),
     ttf2woff2 = require('gulp-ttf2woff2'),
-    fonter = require('gulp-fonter'),
-    removeHtmlComments = require('gulp-remove-html-comments');
+    fonter = require('gulp-fonter');
 
 
 
@@ -69,11 +68,11 @@ function css() {
         )
         .pipe(gcmq())
         .pipe(
-            autoprefixer({
-                overrideBrowserslist: ["last 5 versions"],
-                cascade: true
-            })
-        )
+			autoprefixer({
+				overrideBrowserslist: ["last 5 versions"],
+				cascade: true
+			})
+		)
         .pipe(dest(path.build.css))
         .pipe(cleanCss())
 
@@ -85,7 +84,6 @@ function css() {
 
 function html() {
     return src(path.src.html)
-        .pipe(removeHtmlComments())
         .pipe(fileinclude())
         .pipe(webpHTML())
         .pipe(dest(path.build.html))
@@ -136,7 +134,6 @@ function fonts() {
 }
 
 function cb() { }
-
 
 function watchFiles() {
     gulp.watch([path.watch.html], html),
