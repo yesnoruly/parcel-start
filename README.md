@@ -50,12 +50,35 @@
         |    └── main.min.js
         └── index.html
 
-At the root there are two folders: 
-- src folder
-- dist folder (that is obtained as a result of the build) 
-In the src folder we also observe the folder of fonts, images, scripts and scss files. 
-The initial folder contains the compiled style and script files, and a compressed duplicate of the file is also created.
-Also this folder will be named the same as the folder of its parent
+- `src/` - the source folder contains the main files for development
+    - `fonts/` - directory with fonts
+    - `img/` - directory with images
+    - `js/`
+        - `main.js` - your main scripts and import of all scripts
+        - `burger.js` - opens burger menu
+    - `scss/`
+        - `_fonts.scss` - fonts imported using google fonts
+        - `_footer.scss` - footer styles
+        - `_header.scss` - header styles
+        - `_reset.scss` - nullable browser styles
+        - `_config.scss` - styles for individual interface elements and OOCSS methodology
+        - `style.scss` - main stylesheet, includes css variables and imports of all stylesheets
+    - `_footer.html` - page footer
+    - `_header.html` - page header
+    - `_scripts.html` - connection of site scripts
+    - `_head.html` - connection of the site header, includes meta tags, the page title and the connection of styles
+    - `index.html` - main html file, includes other html files
+ 
+- `dist/`
+    - `fonts/` - ttf -> woff/woff2
+    - `img` - optimize images (WEBP, CSSO)
+    - `css/`
+        - `style.css` - final css file 
+        - `style.min.css` - final minified css file 
+    - `js/`
+        - `main.js` - final js file 
+        - `main.min.js` - final js minified file
+    - `index.html` - final html minified file
 
 
 ## Advantages
