@@ -1,7 +1,6 @@
 {
-  "name": "gulp-start",
+  "name": "gulp-start-template",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "start": "gulp"
