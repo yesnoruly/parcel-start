@@ -71,7 +71,7 @@
  
 - `dist/`
     - `fonts/` - ttf -> woff/woff2
-    - `img` - optimize images (WEBP, CSSO)
+    - `img` - optimize images (WEBP, ImageMin)
     - `css/`
         - `style.css` - final css file 
         - `style.min.css` - final minified css file 
