@@ -6,7 +6,7 @@
     "start": "gulp"
   },
   "author": "Karvackyy Roma",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",

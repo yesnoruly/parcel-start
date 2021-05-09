@@ -105,4 +105,4 @@ If you find a bug/error send pull requests or report [here](https://github.com/K
 
 ## License 
 
-Licensed under [ISC License](https://github.com/Karvacky-Roma/gulp-build/blob/master/LICENSE)
+Licensed under [MIT License](https://github.com/Karvacky-Roma/gulp-build/blob/master/LICENSE)
