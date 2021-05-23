@@ -95,6 +95,7 @@
  - Sticky footer and aside using grids (***src/scss/config.scss***)                                    
   
   ![screenshot](https://i.ibb.co/CzHwRM6/image-2021-04-04-01-13-55-2.png)
+  - Automatic deletion of comments (html only for now)
 ## Authors 
 
  - [**Karvackyy Roma**](https://github.com/Karvacky-Roma)
