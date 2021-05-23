@@ -1,5 +1,6 @@
 {
   "name": "gulp-start-template",
+  "description": "Gulp start template, BrowserSync, scss, optimize images",
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
