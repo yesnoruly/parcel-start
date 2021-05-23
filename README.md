@@ -15,8 +15,9 @@
    
     npm i
 
-    npm start (and open localhost:5000/)
+    npm start
 
+and open localhost:5000
 ## File And Folder System
 
     %project_folder%/
