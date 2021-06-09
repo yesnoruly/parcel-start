@@ -93,9 +93,6 @@ and open localhost:5000
  - Minification and concatenation of CSS / JS files;
  - Automatic generation of vendor prefixes (-webkit, -moz, -o, -ms) so that older versions of browsers support all css properties;
  - Using the BEM methodology;
- - Sticky footer and aside using grids (***src/scss/config.scss***)                                    
-  
-  ![screenshot](https://i.ibb.co/CzHwRM6/image-2021-04-04-01-13-55-2.png)
   - Automatic deletion of comments (html only for now)
 ## Authors 
 
