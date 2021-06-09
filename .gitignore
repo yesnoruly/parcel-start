@@ -1,6 +1,7 @@
-# node-js files
+#nodjs
 node_modules/
 package-lock.json
 
-# webs editor files
+#IDE
 .idea/
+.vscode/
