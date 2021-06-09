@@ -1,14 +1,6 @@
-// Variables <================================================================================>
-
-// Font name
-$fontName: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-
-// First media requires
-$md1: 992px;
-$md2: 767px;
-
 // Main styles <================================================================================>
 
+@import '_vars.scss';
 @import '_reset.scss';
 @import '_config.scss';
 @import '_fonts.scss';
