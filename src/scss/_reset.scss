@@ -10,16 +10,6 @@
 	box-sizing: border-box;
 }
 
-a:focus,
-button:focus,
-input:focus,
-select:focus,
-textarea:focus {
-  box-shadow: none;
-  outline: $focusInputColor dotted 2px;
-  outline-offset: .05em;
-}
-
 nav, footer, header, aside{display: block;}
 
 html, body{
