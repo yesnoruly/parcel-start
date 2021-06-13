@@ -1,1 +1,1 @@
-// @@include("burger.js")
+// Divide your code into components and import them like this @@include("someFile.js")

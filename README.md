@@ -25,8 +25,7 @@ and open localhost:5000
     |   ├── fonts/
     |   ├── img/
     |   ├── js
-    |   |    ├── main.js
-    |   |    └── burger.js
+    |   |    └── main.js
     |   ├── scss
     |   |    ├── _fonts.scss
     |   |    ├── _footer.scss
@@ -56,7 +55,6 @@ and open localhost:5000
     - `img/` - directory with images
     - `js/`
         - `main.js` - your main scripts and import of all scripts
-        - `burger.js` - opens burger menu
     - `scss/`
         - `_fonts.scss` - fonts imported using google fonts
         - `_footer.scss` - footer styles
@@ -94,6 +92,7 @@ and open localhost:5000
  - Automatic generation of vendor prefixes (-webkit, -moz, -o, -ms) so that older versions of browsers support all css properties;
  - Using the BEM methodology;
   - Automatic deletion of comments (html only for now)
+  
 ## Authors 
 
  - [**Karvackyy Roma**](https://github.com/Karvacky-Roma)
