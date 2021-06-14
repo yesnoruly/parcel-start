@@ -33,10 +33,11 @@ and open localhost:5000
     |   |    ├── _reset.scss
     |   |    ├── _config.scss
     |   |    └── style.scss
+    |   _aside.html
     |   _footer.html
     |   _head.html
-    |   _scripts.html
     |   _header.html
+    |   _scripts.html
     |   index.html
     |
     └── dist/
@@ -62,8 +63,9 @@ and open localhost:5000
         - `_reset.scss` - nullable browser styles
         - `_config.scss` - styles for individual interface elements and OOCSS methodology
         - `style.scss` - main stylesheet, includes css variables and imports of all stylesheets
-    - `_footer.html` - page footer
-    - `_header.html` - page header
+    - `_aside.html` - aside section
+    - `_footer.html` - footer section
+    - `_header.html` - header section
     - `_scripts.html` - connection of site scripts
     - `_head.html` - connection of the site header, includes meta tags, the page title and the connection of styles
     - `index.html` - main html file, includes other html files
@@ -92,7 +94,7 @@ and open localhost:5000
  - Automatic generation of vendor prefixes (-webkit, -moz, -o, -ms) so that older versions of browsers support all css properties;
  - Using the BEM methodology;
   - Automatic deletion of comments (html only for now)
-  
+
 ## Authors 
 
  - [**Karvackyy Roma**](https://github.com/Karvacky-Roma)
