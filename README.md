@@ -26,11 +26,12 @@
     |   ├── js
     |   |    └── main.js
     |   ├── scss
+    |   |    ├── _config.scss
     |   |    ├── _fonts.scss
     |   |    ├── _footer.scss
     |   |    ├── _header.scss
     |   |    ├── _reset.scss
-    |   |    ├── _config.scss
+    |   |    ├── _vars.scss
     |   |    └── style.scss
     |   _aside.html
     |   _footer.html
@@ -56,11 +57,12 @@
     - `js/`
         - `main.js` - your main scripts and import of all scripts
     - `scss/`
+        - `_config.scss` - styles for individual interface elements and OOCSS methodology
         - `_fonts.scss` - fonts imported using google fonts
         - `_footer.scss` - footer styles
         - `_header.scss` - header styles
         - `_reset.scss` - nullable browser styles
-        - `_config.scss` - styles for individual interface elements and OOCSS methodology
+        - `_vars.scss` - scss variables
         - `style.scss` - main stylesheet, includes css variables and imports of all stylesheets
     - `_aside.html` - aside section
     - `_footer.html` - footer section
