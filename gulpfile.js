@@ -41,8 +41,6 @@ let { src, dest } = require('gulp'),
     webpHTML = require('gulp-webp-html'),
     removeHtmlComments = require('gulp-remove-html-comments');
 
-
-
 function browserSync(params) {
     browsersync.init({
         server: {
@@ -85,6 +83,7 @@ function html() {
         .pipe(dest(path.build.html))
         .pipe(browsersync.stream())
 }
+
 function js() {
     return src(path.src.js)
         .pipe(fileinclude())
