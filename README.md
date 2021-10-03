@@ -98,7 +98,7 @@
 
 ## Authors 
 
- - [**Karvackyy Roma**](https://github.com/Karvacky-Roma)
+ - [**Yesnoruly**](https://github.com/Karvacky-Roma)
 
 ## Contributions
  
