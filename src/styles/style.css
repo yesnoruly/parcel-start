@@ -1,0 +1,11 @@
+/* GLobal */
+
+@import 'focus-visible.css';
+@import 'fonts.css';
+@import 'reset.css';
+@import 'variables.css';
+
+/* Components */
+
+@import 'components/footer.css';
+@import 'components/header.css';
