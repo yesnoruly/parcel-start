@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    @@include('./partials/_head.html', {
-        "title": "Gulp start template",
-    })
+<include src="partials/head.html">
+    {
+        "title": "Parcel start template"
+    }
+</include>
 
-    <body>
-        @@include('./partials/_header.html')
-            <main class="content">
+<body>
 
-                <ul class="preview">
-                    <li class="preview__header">
-                        <img src="img/logo.svg" class="preview__logo" alt="logo" />
-                        <p>
-                            Edit <code>src/index.html</code> &amp; <code>src/scss/style.scss</code> and save to reload.
-                        </p>
-                        <a class="preview__link" href="https://gulpjs.com/" target="_blank">Gulp documentation</a>
-                    </li>
-                </ul>
+    <include src="partials/header.html"></include>
 
-            </main>
+    <main class="content">
 
-            @@include('./partials/_footer.html')
+        <ul class="preview">
+            <li class="preview__header">
+                <img src="img/logo.svg" class="preview__logo" alt="logo" />
+                <p>
+                    Edit <code>src/index.html</code> &amp; <code>src/scss/style.scss</code> and save to reload.
+                </p>
+                <a class="preview__link" href="https://gulpjs.com/" target="_blank">Gulp documentation</a>
+            </li>
+        </ul>
 
-        @@include('./partials/_scripts.html')
-    </body>
+    </main>
+
+    <include src="partials/footer.html"></include>
+
+    <include src="partials/scripts.html"></include>
+</body>
 
 </html>
