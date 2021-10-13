@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "parcel": "^2.0.0",
+    "postcss-import": "^14.0.2",
     "posthtml-include": "^1.7.2"
   },
   "dependencies": {}
