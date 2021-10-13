@@ -10,7 +10,8 @@
   "author": "Karvackyy Roma",
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.0.0"
+    "parcel": "^2.0.0",
+    "posthtml-include": "^1.7.2"
   },
   "dependencies": {}
 }
