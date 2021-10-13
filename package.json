@@ -1,31 +1,16 @@
 {
   "name": "gulp-start-template",
   "description": "Gulp start template, BrowserSync, Scss, Optimize Images, Minimize Css and JS",
-  "version": "1.0.0",
-  "main": "index.html",
+  "version": "0.0.0",
+  "source": "src/index.html",
   "scripts": {
-    "start": "gulp"
+    "dev": "parcel",
+    "build": "parcel build"
   },
   "author": "Karvackyy Roma",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.13",
-    "del": "^6.0.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-file-include": "^2.2.2",
-    "gulp-fonter": "^0.3.0",
-    "gulp-group-css-media-queries": "^1.2.2",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-remove-html-comments": "^1.0.1",
-    "gulp-uglify-es": "^2.0.0",
-    "gulp-webp": "^4.0.1",
-    "gulp-webp-html": "^1.0.2"
+    "parcel": "^2.0.0"
   },
-  "dependencies": {
-    "autoprefixer": "^10.3.7",
-    "postcss-csso": "^5.0.1",
-    "postcss-import": "^14.0.2"
-  }
+  "dependencies": {}
 }
