@@ -32,18 +32,6 @@ Run the app, you can view the app by visiting `http://localhost:1234/`.
 
 Builds the website for production to the dist folder.
 
-## Github Pages Deploy
-
-If you want to deploy your website, you need:
-1. Check the branch name in the [`deploy.yml`](https://github.com/yesnoruly/parcel-start/blob/master/.github/workflows/deploy.yml) file
-2. In the `package.json` specify the following fields:
-```json
-"homepage": "https://%your-name%.github.io/%your-rep-name%",
-"scripts": {
-    "build": "parcel build src/*.html --public-url /%your-rep-name%/"
-}
-```
-
 ## Authors
 
 - [@yesnoruly](https://github.com/yesnoruly)
