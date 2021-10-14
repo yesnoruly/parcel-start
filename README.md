@@ -1,6 +1,7 @@
 # Parcel start
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/yesnoruly/gulp-build/blob/master/LICENSE)
+![GitHub deployments](https://img.shields.io/github/deployments/yesnoruly/parcel-start/github-pages?label=Deploy)
 
 A simple parcel starter project for static websites.
 
