@@ -1,8 +1,9 @@
 {
-  "name": "gulp-start-template",
-  "description": "Gulp start template, BrowserSync, Scss, Optimize Images, Minimize Css and JS",
+  "name": "parcel-start",
+  "description": "Parcel starter template",
   "version": "0.0.0",
   "source": "src/index.html",
+  "main": "dist/main.js",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build"
