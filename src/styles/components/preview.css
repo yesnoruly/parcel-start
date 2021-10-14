@@ -29,13 +29,12 @@
 /* Paragraph */
 
 .preview__paragraph {
-    padding-top: 50px;
+    padding: 70px 0 50px;
 }
 
 /* Link */
 
 .preview__link {
-    margin-top: 50px;
     color: #c0aaaa;
     text-decoration: underline;
     text-decoration-color: #c0aaaa;
