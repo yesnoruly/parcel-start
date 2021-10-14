@@ -8,7 +8,7 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build src/*.html"
+    "build": "parcel build src/*.html --public-url /parcel-start/"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.7",
