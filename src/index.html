@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-	@@include('_head.html', {
-		"title": "Gulp start template",
-	})
-	<body>
-		@@include('_header.html')
-			<main class="content">
+<html class="page" lang="en">
 
-				<ul class="preview">
-					<li class="preview__header">
-						<img src="img/logo.svg" class="preview__logo" alt="logo" />
-						<p>
-							Edit <code>src/index.html</code> &amp; <code>src/scss/style.scss</code> and save to reload.
-						</p>
-						<a class="preview__link" href="https://gulpjs.com/" target="_blank">Gulp documentation</a>
-					</li>
-				</ul>
+<include src="partials/head.html">
+    {
+        "title": "Parcel start template"
+    }
+</include>
 
-			</main>
+<body class="page__body">
 
-			<!-- @@include('_aside.html') -->
+    <include src="partials/header.html"></include>
 
-			@@include('_footer.html')
+    <main>
 
-		@@include('_scripts.html')
-	</body>
+        <section class="preview">
+            <img src="image/parcel.svg" class="preview__logo" alt="logo" />
+            <p class="preview__paragraph">This page is an example, <a class="preview__link" href="https://github.com/yesnoruly/parcel-start">back to readme</a></p>
+            <a class="preview__link" href="https://parceljs.org/" target="_blank">Parcel documentation</a>
+        </section>
+
+    </main>
+
+    <include src="partials/footer.html"></include>
+
+    <include src="partials/scripts.html"></include>
+</body>
+
 </html>

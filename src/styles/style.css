@@ -1,0 +1,12 @@
+/* GLobal */
+
+@import 'fonts.css';
+@import 'reset.css';
+@import 'variables.css';
+
+/* Components */
+
+@import 'components/footer.css';
+@import 'components/header.css';
+@import 'components/preview.css';
+@import 'components/page.css';
