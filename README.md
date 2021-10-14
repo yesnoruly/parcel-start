@@ -10,29 +10,23 @@ A simple parcel starter project for static websites.
 
 ## Quick start
 
-### `npm install`:
+#### `npm install`:
 
 Install the dependencies.
 
-### `npm run dev`:
+#### `npm run dev`:
 
 Run the app, you can view the app by visiting `http://localhost:1234/`.
 
 ---
 
-### `npm run build`:
+#### `npm run build`:
 
 Builds the website for production to the dist folder.
 
 ## Authors
 
 - [@yesnoruly](https://github.com/yesnoruly)
-
-## Contributing
-
-Contributions are always welcome!
-
-See [`contributing.md`](https://github.com/yesnoruly/parcel-start/#readme) for ways to get started.
 
 ## Related
 
