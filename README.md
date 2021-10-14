@@ -14,7 +14,7 @@ A simple parcel starter project for static websites.
 
 ## Demo
 
-[Demo](https://github.com/yesnoruly/parcel-start#readme)
+[Demo](https://yesnoruly.github.io/parcel-start/)
 
 ## Quick start
 
