@@ -6,7 +6,6 @@
   "homepage": "https://yesnoruly.github.io/parcel-start",
   "version": "0.0.0",
   "source": "src/index.html",
-  "main": "dist/main.js",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build src/*.html --public-url /parcel-start/"
