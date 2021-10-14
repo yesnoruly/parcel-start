@@ -22,8 +22,14 @@
 
 @media (prefers-reduced-motion: no-preference) {
     .preview__logo {
-        animation: App-logo-spin infinite 20s ease-in-out;
+        animation: App-logo-spin infinite 10s linear .2s;
     }
+}
+
+/* Paragraph */
+
+.preview__paragraph {
+    padding-top: 50px;
 }
 
 /* Link */
@@ -43,10 +49,9 @@
 
 @keyframes App-logo-spin {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  
+}
