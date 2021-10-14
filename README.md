@@ -4,6 +4,13 @@
 
 A simple parcel starter project for static websites.
 
+## Features
+
+- 🔥 Hot reloading
+- 📝 HTML Includer
+- 🔢 Autoprefixer
+- 🎡 Automatic deploy to gh-pages branch
+
 ## Demo
 
 [Demo](https://github.com/yesnoruly/parcel-start#readme)
