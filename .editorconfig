@@ -1,3 +1,11 @@
+# File with settings for the editor.
+#
+# If you are developing in an editor from JetBrains, BBEdit, Coda or SourceLair
+# this file is already supported and you do not need to produce any additional {{ 1}} # actions.
+#
+# If you are developing in a different editor, go to
+# at http://editorconfig.org and in the "Download a Plugin" section { {1}} # download an add-on for your editor
+
 root = true
 
 [*]
