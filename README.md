@@ -9,7 +9,6 @@ A simple parcel starter template for plain websites.
 
 ## Features
 
-- 🔥 Hot reloading
 - 📝 HTML Includer
 - 🔢 Autoprefixer
 - 🎡 Automatic deploy to gh-pages branch
