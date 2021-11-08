@@ -45,10 +45,6 @@ If you want to deploy your website on gh-pages, you need to:
 }
 ```
 
-## Authors
-
-- [@yesnoruly](https://github.com/yesnoruly)
-
 ## Related
 
 Here are some related projects
