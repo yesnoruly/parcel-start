@@ -49,4 +49,4 @@ If you want to deploy your website on gh-pages, you need to:
 
 Here are some related projects
 
-[Awesome Parcel](https://github.com/parcel-bundler/awesome-parcel#examples)
+[awesome-parcel#examples](https://github.com/parcel-bundler/awesome-parcel#examples)
