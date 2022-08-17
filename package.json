@@ -11,10 +11,10 @@
     "build": "parcel build src/*.html --public-url /parcel-start/"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.7",
-    "parcel": "^2.0.0",
-    "postcss-import": "^14.0.2",
-    "posthtml-include": "^1.7.2"
+    "autoprefixer": "^10.4.8",
+    "parcel": "^2.6.0",
+    "postcss-import": "^14.1.0",
+    "posthtml-include": "^1.7.4"
   },
   "repository": {
     "type": "git",
