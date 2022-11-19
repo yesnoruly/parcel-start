@@ -11,7 +11,7 @@ A simple parcel starter template for plain websites.
 
 - 📝 HTML Includer
 - 🔢 Autoprefixer
-- 🎡 Automatic deploy to gh-pages branch
+- 🎡 [Automatic deploy to gh-pages](#github-pages-deploy) branch
 - 🔄 [Custom](https://www.joshwcomeau.com/css/custom-css-reset/) css reset
 
 ## Demo
