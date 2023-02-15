@@ -12,7 +12,7 @@ A simple parcel starter template for plain websites.
 - 📝 HTML Includer
 - 🔢 Autoprefixer
 - 🎡 Automatic deploy to gh-pages branch
-- 🔄 [Custom](https://www.joshwcomeau.com/css/custom-css-reset/) css reset
+- 🔄 CSS reset
 
 ## Demo
 
