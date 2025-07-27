@@ -13,7 +13,7 @@
   "devDependencies": {
     "autoprefixer": "latest",
     "parcel": "latest",
-    "postcss": "late",
+    "postcss": "latest",
     "postcss-import": "latest",
     "posthtml-include": "latest"
   },
